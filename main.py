@@ -81,10 +81,10 @@ def main():
                 if error[k] == test_lb[k] :
                     error_rate = error_rate + 1
             error_rate =  error_rate / num_points
-            print error_rate
+            print(error_rate)
             final_error.append(error_rate)
         average_final = sum(final_error) / 10.0
-        print average_final
+        print(average_final)
         average_error.append(average_final)
 
             #times.append(end-start)
